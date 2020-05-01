@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 * {
   box-sizing: border-box;
 }
@@ -18,7 +18,7 @@ h1 {
 }
 
 #t1 {
-  background-color: yellow;
+  background-color: lightyellow;
   color: #000000
 
 }
@@ -29,7 +29,7 @@ h1 {
 }
 
 #t3{
-  background-color: green;
+  background-color: lightgreen;
   color: #000000;
 }
 
@@ -41,7 +41,7 @@ span {
   text-align: center;
   float: right;
   top: 0;
-  rigth: 0;
+  right: 0;
   margin:0;
   position: absolute;
 }
