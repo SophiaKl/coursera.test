@@ -48,10 +48,15 @@
   height: 2000px;
 }
 
-#t1 {
-  color: #000000
-  font-size: 20px;
-  padding-left: 45%
+span#t1 {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: black;
+  opacity: .8;
 }
 
 
@@ -63,7 +68,7 @@ span {
 
 p {
   color: black;
-  padding: 15px 5px 0px 5px;
+  padding: 35px 5px 0px 5px;
   font-family: 'Jost', sans-serif;
   font-size: 15px;
   position: relative;
