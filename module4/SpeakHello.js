@@ -5,16 +5,13 @@
 // STEP 3: Create an object, called 'helloSpeaker' to which you will attach
 // the "speak" method and which you will expose to the global context
 // See Lecture 52, part 1
-(function (window) {
-	var helloSpeaker = {};
-	helloSpeaker.names = ["Yaakov", "Paul", "Frank", "Larry", "Paula", "Laura"];
-	function speak (name) {
-	  	console.log(speakWord + " " + name);
-	}
-	var speakWord = "Hello";
-
-	window.helloSpeaker = helloSpeaker;
-
+(function(window) {
+  var speakWord = "Hello";
+  var helloSpeaker = {};
+  helloSpeaker.speak = function(name) {
+    console.log(speakWord + " " + name);
+  }
+  window.helloSpeaker = helloSpeaker;
 })(window);
 
 
