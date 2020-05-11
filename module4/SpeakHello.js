@@ -8,14 +8,16 @@
 (function (window) {
 	var helloSpeaker = {};
 	helloSpeaker.names = ["Yaakov", "Paul", "Frank", "Larry", "Paula", "Laura"];
-	var speakWord = "Hello";
-	helloSpeaker.speak = function () {
-	  	console.log(speakWord + "Hello" + helloSpeaker.names);
+	function speak (name) {
+	  	console.log(speakWord + " " + name);
 	}
+	var speakWord = "Hello";
 
 	window.helloSpeaker = helloSpeaker;
 
 })(window);
+
+
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
 	
